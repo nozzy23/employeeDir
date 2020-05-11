@@ -5,9 +5,8 @@ class Add extends React.Component{
   constructor(props){
       super(props);
       this.state={
-        name:"",
-        lastname:"",
-        role:""
+        fullName="",
+        occupation:""
       }
   }
 
@@ -16,7 +15,7 @@ class Add extends React.Component{
     this.setState({
         name:userInput,
         lastname:userInput,
-        role:userInput});}
+        occupation:userInput});}
 
 
   render(){

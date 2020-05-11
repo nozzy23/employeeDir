@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Add from './add_employee';
+import Add from './components/add_employee';
 
 
 
 function App() {
-  return (
-    <div>
+  return 
+  (<div>
 <table class="table">
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
+      <th scope="col">Fullname</th>
       <th scope="col">Role</th>
     </tr>
   </thead>
