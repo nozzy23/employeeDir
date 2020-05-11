@@ -5,7 +5,7 @@ class Add extends React.Component{
   constructor(props){
       super(props);
       this.state={
-        fullName="",
+        fullName:"",
         occupation:""
       }
   }

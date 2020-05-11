@@ -2,44 +2,28 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Add from './components/add_employee';
+import employees from './employees.json';
+import EmployeeList from './components/list_employee'
 
+class App extends Component{
+  state={
+    employees:employees
+  };
 
-
-function App() {
-  return 
-  (<div>
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Fullname</th>
-      <th scope="col">Role</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>Manager</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>Software Developer</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>Intern</td>
-    </tr>
-  </tbody>
-</table>
-<Add/>
-    </div>
-  );
+ render() {
+   console.log(employees)
+    return(
+      <div>
+        {this.state.employees.map((employee,index)=>(
+              <EmployeeList key={index}
+              name={employee.name}
+              occupation={employee.occupation}
+              />
+        ))};
+      </div>
+    );
+  }
 }
+
 
 export default App;

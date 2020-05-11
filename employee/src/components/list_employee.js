@@ -1,9 +1,9 @@
 import React from "react";
 
-function employeeList(props){
+function EmployeeList(props){
     return(
 <div>
-    <table class="table">
+    <table className="table">
     <thead>
         <tr>
         <th scope="col">#</th>
@@ -22,4 +22,4 @@ function employeeList(props){
 </div>
 )};
 
-export default employeeList;
+export default EmployeeList;
