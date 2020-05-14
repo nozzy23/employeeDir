@@ -1,0 +1,52 @@
+ [
+    {
+      "id": 1,
+      "name": "Oscar Nuñez",
+      "occupation": "Manager"
+    },
+    {
+      "id": 2,
+      "name": "Kristen Nuñez",
+      "occupation": "Software Engineer"
+    },
+    {
+      "id": 3,
+      "name": "Adhan Payano",
+      "occupation": "Intern"
+    },
+    {
+      "id": 4,
+      "name": "Heriberto Valdez",
+      "occupation": "Intern"
+    },
+    {
+      "id": 5,
+      "name": "Anthony Nuñez",
+      "occupation": "Software Engineer"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Nuñez",
+      "occupation": "Software Engineer"
+    },
+    {
+      "id": 7,
+      "name": "Kat Suarez",
+      "occupation": "Intern"
+    },
+    {
+      "id": 8,
+      "name": "Arsenio Rondon",
+      "occupation": "Software Engineer"
+    },
+    {
+      "id": 9,
+      "name": "Jasmine Davila",
+      "occupation": "Intern"
+    },
+    {
+      "id": 10,
+      "name": "Raul Nino",
+      "occupation": "Software Engineer"
+    }
+]
