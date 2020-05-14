@@ -2,8 +2,7 @@ import React from "react";
 
 function EmployeeList(props){
     return(
-<div>
-    <table className="table">
+    <table className="table table-striped">
     <thead>
         <tr>
         <th scope="col">#</th>
@@ -16,10 +15,11 @@ function EmployeeList(props){
         <th scope="row">{props.id}</th>
         <td>{props.name}</td>
         <td>{props.occupation}</td>
+        <td><img src={props.image}/></td>
         </tr>
     </tbody>
+    
     </table>
-</div>
 )};
 
 export default EmployeeList;
